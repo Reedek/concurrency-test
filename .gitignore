@@ -1,0 +1,98 @@
+.project
+.classpath
+.settings/
+*/.classpath
+*/.project
+*/.settings/
+exemplarwar/src/main/webapp/WEB-INF/jetty-web.xml
+exemplarwar/src/main/webapp/buildInfo-*.html
+*/target/
+*.log
+*.sh
+
+*/bin
+# Build folders #
+#################
+/target
+*/target
+/lib
+/lib-sources
+/exemplarwar/src/main/webapp/WEB-INF/jetty-web.xml
+/exemplarwar/exemplarwarexploded/
+/exemplarwar/node_modules/
+/exemplarwar/coverage/
+*/overlays
+*/.externalToolBuilders
+**/*.idea
+**/*.iml
+/bin
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# CSS source compiled from LESS for local development #
+#######################################################
+exemplarwar/src/main/webapp/client/*/css/**/*.css
+exemplarwar/src/main/webapp/resources/css/**/*.css
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+#*.zip
+
+# Logs and databases #
+######################
+*.log
+*.log.*
+*.sqlite
+#database scripts must be allowed to be checked in.  If you exclude them do it at a lower level.
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Eclipse generated files #
+###########################
+*.classpath
+*.project
+*.settings
+
+# Intellij generated files #
+###########################
+*.iml
+.idea
+
+# HSQL files #
+##############
+*DB.log
+*DB.properties
+*DB.script
+
+# JRebel config #
+#################
+rebel.xml
+/exemplarqa/.classpath
+/exemplarqa/exemplarqa.eml
+/exemplarqa/.classpath
+*.classpath
+*.classpath
+.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml
+.metadata/
+/bin1/
